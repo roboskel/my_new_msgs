@@ -1,13 +1,16 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>my_new_msgs</name>
-  <version>0.0.0</version>
-  <description>The my_new_msgs package</description>
+  <name>pointcloud_msgs</name>
+  <version>0.1.0</version>
+  <description>The pointcloud_msgs package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
   <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
-  <maintainer email="koikonomou@todo.todo">koikonomou</maintainer>
+  <author email="cathrine.m.oik@gmail.com">Katerina Oikonomou</author>
+
+  <maintainer email="cathrine.m.oik@gmail.com">Katerina Oikonomou</maintainer>
+  <maintainer email="gstavrinos@iit.demokritos.gr">George Stavrinos</maintainer>
 
 
   <!-- One license tag required, multiple allowed, one license per tag -->
@@ -17,27 +20,15 @@
 
 
   <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>std_msgs</build_depend>
-  <build_export_depend>std_msgs</build_export_depend>
-  <exec_depend>std_msgs</exec_depend>
 
-  <build_depend>sensor_msgs</build_depend>
-  <build_export_depend>sensor_msgs</build_export_depend>
-  <exec_depend>sensor_msgs</exec_depend>
-
-  <build_depend>msg</build_depend>
-  <build_export_depend>msg</build_export_depend>
-  <exec_depend>msg</exec_depend> 
-
-  <build_depend>message_generation</build_depend>
-  <exec_depend>message_runtime</exec_depend>
+  <depend>message_runtime</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>msg</depend> 
 
 
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
-    <!-- Other tools can request additional information be placed here -->
-  <depend package="msg"/> 
-  
   </export>
 </package>

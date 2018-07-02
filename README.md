@@ -1,3 +1,3 @@
-# my_new_msgs
+# pointcloud_msgs
 
-Custom messages created for *euclidean_clustering* and *laserscan2pcl* packages
+Custom messages created for *laserscan_stacker* *pointcloud2_clustering* *pointcloud2_segments_viz* and *pointcloud2_cluster_tracking*  packages

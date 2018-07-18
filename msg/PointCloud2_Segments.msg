@@ -5,3 +5,10 @@
   int32 overlap
   int32[] cluster_id
   int32 num_scans
+  float32 angle_min
+  float32 angle_max
+  float32 angle_increment
+  float32 time_increment
+  float32 range_min
+  float32 range_max
+  float32 scan_time

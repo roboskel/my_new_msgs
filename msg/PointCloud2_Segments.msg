@@ -12,3 +12,4 @@
   float32 range_min
   float32 range_max
   float32 scan_time
+  time rec_time 
